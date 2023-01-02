@@ -1,0 +1,4 @@
+baseURL = 'https://hiddeninfra.com/'
+languageCode = 'en-us'
+title = 'Hidden Infra'
+theme = 'ananke'
