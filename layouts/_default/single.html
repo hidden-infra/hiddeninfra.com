@@ -10,9 +10,11 @@
       <time>{{ .Date | time.Format ":date_medium" }}</time>
       {{ end }}<!---->
       <span class="mx-1">&middot;</span>
-      {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
-      {{ $minutes := math.Floor (div $readTime 60) }}
-      <span>{{ $minutes }} {{ cond (eq $minutes 1.0) "minute" "minutes" }}</span>
+      {{ $readTime := mul (div (countwords .Content) 220.0) 60 }} {{ $minutes :=
+      math.Floor (div $readTime 60) }}
+      <span
+        >{{ $minutes }} {{ cond (eq $minutes 1.0) "minute" "minutes" }}</span
+      >
       {{ if or .Params.Author site.Author.name }}
       <span class="mx-1">&middot;</span>
       <span>{{ .Params.Author | default site.Author.name }}</span>
@@ -63,10 +65,10 @@
   {{ if and site.DisqusShortname (not (eq .Params.comments false)) }}
   <div class="mt-24" id="disqus_thread"></div>
   <script>
-    const disqusShortname = '{{ site.DisqusShortname }}';
-    const script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
+    const disqusShortname = "{{ site.DisqusShortname }}";
+    const script = document.createElement("script");
+    script.src = "https://" + disqusShortname + ".disqus.com/embed.js";
+    script.setAttribute("data-timestamp", +new Date());
     document.head.appendChild(script);
   </script>
   {{ end }}

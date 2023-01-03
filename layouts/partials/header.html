@@ -1,7 +1,7 @@
 <header class="mx-auto flex h-[5rem] max-w-3xl px-8 justify-between">
   <div class="relative z-50 flex items-center">
     <a href="{{ `` | absURL }}">
-      <img src="/img/hi_logo.jpg" alt="" width="70px">
+      <img src="/img/hi_logo.jpg" alt="" width="70px" />
     </a>
   </div>
 
@@ -22,13 +22,13 @@
     // base
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
-      htmlClass.remove('not-ready');
+      htmlClass.remove("not-ready");
     }, 10);
 
     // mobile menu
-    const btnMenu = document.querySelector('.btn-menu');
-    btnMenu.addEventListener('click', () => {
-      htmlClass.toggle('open');
+    const btnMenu = document.querySelector(".btn-menu");
+    btnMenu.addEventListener("click", () => {
+      htmlClass.toggle("open");
     });
   </script>
 
