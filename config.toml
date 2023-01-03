@@ -1,4 +1,47 @@
-baseURL = 'https://hiddeninfra.com/'
-languageCode = 'en-us'
-title = 'Hidden Infra'
-theme = 'ananke'
+baseurl = "https://hiddeninfra.com"
+defaultContentLanguage = "en"
+title = "Hidden Infra"
+theme = "paper"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+enableEmoji = true
+#googleAnalytics = "XXX"
+
+# --------------------------------------
+
+[params]
+  # color style
+  color = 'light'                   # linen, wheat, gray, light
+
+  # header social icons
+  # twitter = 'YOUR_TWITTER_ID'       # twitter.com/YOUR_TWITTER_ID
+  github = 'hidden-infra'         # github.com/YOUR_GITHUB_ID
+  # instagram = 'YOUR_INSTAGRAM_ID'   # instagram.com/YOUR_INSTAGRAM_ID
+  # mastodon = 'YOUR_MASTODON_LINK'   # e.g. 'https://mastodon.instance/@xxx'
+  rss = true                        # show rss icon
+
+  # home page profile
+  #avatar = 'img/hi_logo.jpg'         # Gravatar email or image url
+  #name = 'Hidden Infra'
+  #bio = 'Shedding light on the invisible parts of our world.'
+
+  # misc
+  disableHLJS = true                # disable requesting highlight.js
+  monoDarkIcon = true               # show monochrome dark mode icon
+
+# --------------------------------------
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
