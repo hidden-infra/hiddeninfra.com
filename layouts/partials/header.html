@@ -1,8 +1,11 @@
-<header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
-  <div class="relative z-50 mr-auto flex items-center">
-    <a class="pr-5" href="#">
-      <img src="/img/hi_logo.jpg" alt="" width="50px">
+<header class="mx-auto flex h-[5rem] max-w-3xl px-8 justify-between">
+  <div class="relative z-50 flex items-center">
+    <a href="{{ `` | absURL }}">
+      <img src="/img/hi_logo.jpg" alt="" width="70px">
     </a>
+  </div>
+
+  <div class="relative hover:pl-8 mx-auto flex items-center lg:justify-center">
     <a
       class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold"
       href="{{ `` | absURL }}"
@@ -11,7 +14,7 @@
   </div>
 
   <a
-    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    class="btn-menu relative z-50 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
   ></a>
 
   {{ $bg_color := $.Scratch.Get "bg_color" }}
@@ -34,7 +37,7 @@
   >
     {{ $url := .RelPermalink }}<!---->
     {{ with site.Menus.main }}
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <nav class="lg:flex lg:flex-row lg:items-center lg:space-x-6">
       {{ range . }}
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
