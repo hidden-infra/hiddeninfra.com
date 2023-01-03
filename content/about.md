@@ -4,7 +4,7 @@ image: ""
 tags: []
 ---
 
-My goal for this project is to share my obsession with "hidden infrastructure". To do that, I should start by explaining my emotional attachment to it and elaborating on why I am so fascinated by things of this nature.
+Hi! I'm Connick. My goal for this project is to share my obsession with "hidden infrastructure". To do that, I should start by explaining my emotional attachment to it and elaborating on why I am so fascinated by things of this nature.
 
 Everything started with my discovery of [urban exploration](https://en.wikipedia.org/wiki/Urban_exploration), which is the “exploration of manmade structures, usually abandoned ruins or hidden components of the manmade environment”. This concept captivated me because I had never considered the existence of things like that. It was like a whole new world had been exposed. I went down a long rabbit hole of [YouTube videos](https://youtu.be/vWF3IDk9Gek) and Internet sleuthing, but I never did any UrbEx myself (mostly because it often involves trespassing).
 
