@@ -6,7 +6,7 @@ image: ""
 tags: []
 ---
 
-![Long Lines Downtown Oakland!](/img/long_lines_oak.jpeg "Unused AT&T Long Lines Antennas in Oakland, CA")
+![Long Lines Downtown Oakland!](/img/long_lines_oak.jpeg "Unused AT&T Long Lines antennas in Oakland, CA")
 
 Hi! I'm Connick. Welcome to my new project, Hidden Infrastructure. For the longest time, I have been fascinated by the unseen secrets of our world, which I like to call "hidden infrastructure". I don't mean the boring stuff like water pipes or electric grid transformers. I'm talking about things like disguised transit ventilation shafts, unseen underground bunkers, and remote weather stations.
 
